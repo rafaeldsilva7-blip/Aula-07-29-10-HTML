@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de estilização - MENUS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <!-- Menu Superior -->
+    <header class="topo" id="inicio">
+        <h1>Portal de Tecnologia</h1>
+        <p>Exemplo simples de HTML + CSS</p>
+
+        <nav class="menu-horizontal">
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Imagens</a></li>
+                <li><a href="">Listas</a></li>
+                <li><a href="">Tabelas</a></li>
+                <li><a href="">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pagina">
+        <aside class="menu-lateral">
+            <h2>Conteúdos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
+                    <li><a href="#listas">2. Listas</a></li>
+                    <li><a href="#tabela">3. Tabelas</a></li>
+                    <li><a href="#links">4. Links</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="conteudo">
+            <section id="imagens" class="section">
+                <h2>1. Imagens</h2>
+                <p>Tag imagem</p>
+                <img class="imagem" src="https://i.pinimg.com/736x/4e/84/78/4e8478aaf66a577f5eba1f188f0af944.jpg" alt="imagem">
+            </section>
+
+            <section id="listas" class="section">
+                <h2>2. Listas</h2>
+                <ul class="lista-conteudo">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+
+            <section id="tabela" class="section">
+                <h2>3. Tabelas</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Finalidade</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estrutura da página</td>
+                        </tr>
+
+                        <tr>
+                            <td>CSS</th>
+                            <td>Estilização da página</td>
+                        </tr>
+
+                        <tr>
+                            <td>PHP</td>
+                            <td>Funcionamento da pagina</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="links" class="section">
+                <h2>4. Links</h2>
+                <p>Link para o mió time do Brasil</p>
+                <a class="link" href="https://www.saopaulofc.net/">Clique Aqui!</a>
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>
